@@ -13,3 +13,4 @@ tmp
 test.js
 .DS_Store
 yarn.lock
+.idea

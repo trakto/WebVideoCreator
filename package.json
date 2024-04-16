@@ -3,8 +3,10 @@
   "version": "0.0.34",
   "description": "A framework for creating videos based on Node.js + Puppeteer + FFmpeg.",
   "type": "module",
-  "main": "index.js",
-  "scripts": {},
+  "main": "index.cjs",
+  "scripts": {
+    "build": "npx rollup index.js --file index.cjs --format cjs && npm pack "
+  },
   "author": "Vinlic",
   "license": "Apache-2.0",
   "repository": {
